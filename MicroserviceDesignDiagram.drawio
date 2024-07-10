@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T20:44:11.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="CtTI0dHsqxcycdtl30a9" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T21:01:42.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="8tlSuFfyuv_5oApFyQjJ" version="24.6.4" type="github">
   <diagram name="Page-1" id="DZVCTHQu2n3p9sboyNOl">
     <mxGraphModel dx="3424" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,13 +128,10 @@
             <mxPoint x="-854.5" y="-170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jgYk3zZ4BMT8bTG-VnUE-106" value="Log Analytics&lt;br&gt;Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" parent="1" vertex="1">
-          <mxGeometry x="-814" y="405" width="84" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="jgYk3zZ4BMT8bTG-VnUE-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" target="jgYk3zZ4BMT8bTG-VnUE-106" edge="1">
+        <mxCell id="jgYk3zZ4BMT8bTG-VnUE-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.04;entryY=0.287;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="0WEt7F5-mT2UaYVK9m0M-172" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-960" y="447" as="sourcePoint" />
-            <mxPoint x="-850" y="430" as="targetPoint" />
+            <mxPoint x="-814" y="446.99999999999955" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jgYk3zZ4BMT8bTG-VnUE-108" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -351,32 +348,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-112" value="Cold Log&lt;br&gt;Analytics&amp;nbsp;&lt;br&gt;Report for MSR" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-112" value="Power BI report&lt;br&gt;for MSR" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
           <mxGeometry x="-1290" y="450" width="51" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-116" value="Log Cold&lt;br&gt;Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-201.61" y="570" width="70" height="90" as="geometry" />
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-116" value="Log Cold&lt;br&gt;Storage&lt;br&gt;(Data lake)" style="shape=image;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;sketch=0;aspect=fixed;image=img/lib/mscae/Data_Lake.svg;points=[];" vertex="1" parent="1">
+          <mxGeometry x="-199.02" y="540" width="61.61" height="79.21" as="geometry" />
         </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-124" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.analytics;" vertex="1" parent="1">
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-124" value="Live Analytics&amp;nbsp;&lt;div&gt;dashboard&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.analytics;" vertex="1" parent="1">
           <mxGeometry x="-1294.5" y="331.2" width="60" height="58.8" as="geometry" />
         </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-133" value="Analytics&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;points=[];image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="0WEt7F5-mT2UaYVK9m0M-116">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-139" value="Cold Path&lt;br&gt;Logging" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-138">
-          <mxGeometry x="0.0377" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.059;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-178" target="jgYk3zZ4BMT8bTG-VnUE-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-824" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-890" y="776" />
+              <mxPoint x="-890" y="477" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="jgYk3zZ4BMT8bTG-VnUE-66">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-141" value="Analytics&lt;br&gt;Report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-140">
           <mxGeometry x="-0.0299" y="-5" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+            <mxPoint x="125" y="18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.895;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-66" target="0WEt7F5-mT2UaYVK9m0M-124">
@@ -389,22 +381,11 @@
         </mxCell>
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-146" value="Hot path log&lt;br&gt;analytics dashboard" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-145">
           <mxGeometry x="0.2787" y="1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-106" target="0WEt7F5-mT2UaYVK9m0M-133">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-150" value="Hot &amp;amp; Cold&lt;br&gt;path Log&lt;br&gt;processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-149">
-          <mxGeometry x="0.3844" y="1" relative="1" as="geometry">
-            <mxPoint y="12" as="offset" />
+            <mxPoint x="-4" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-151" value="Anamoly Detector" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Anomaly_Detector.svg;" vertex="1" parent="1">
-          <mxGeometry x="-824" y="830" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="0WEt7F5-mT2UaYVK9m0M-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="0WEt7F5-mT2UaYVK9m0M-151">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-814" y="610" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.025;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-66" target="0WEt7F5-mT2UaYVK9m0M-112">
           <mxGeometry relative="1" as="geometry">
@@ -417,6 +398,55 @@
         <mxCell id="0WEt7F5-mT2UaYVK9m0M-154" value="Cold path&lt;br&gt;log analytics&amp;nbsp;&lt;br&gt;report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-153">
           <mxGeometry x="0.0519" y="-3" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-157" value="System&lt;br&gt;Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="405" width="30" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-124" target="0WEt7F5-mT2UaYVK9m0M-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1400" y="361" />
+              <mxPoint x="-1400" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-112" target="0WEt7F5-mT2UaYVK9m0M-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-172" target="0WEt7F5-mT2UaYVK9m0M-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-172" value="Analytics&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;points=[];image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-172" target="0WEt7F5-mT2UaYVK9m0M-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-610" y="459" />
+              <mxPoint x="-610" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-177" value="Hot &amp;amp; Cold&lt;br&gt;path Log&lt;br&gt;processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-175">
+          <mxGeometry x="-0.4886" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-178" value="Data lake&amp;nbsp;&lt;br&gt;analytics" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Data_Lake_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="740" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.934;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-116" target="0WEt7F5-mT2UaYVK9m0M-178">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="600" />
+              <mxPoint x="-340" y="774" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-182" value="Cold log&lt;br&gt;analysis" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-181">
+          <mxGeometry x="-0.1024" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
