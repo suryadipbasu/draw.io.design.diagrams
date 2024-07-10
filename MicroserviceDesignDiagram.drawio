@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T20:21:31.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="laI1kLKkWKja7KufYJ46" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T20:39:38.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="batD5WqKPLWM-AIk-7z5" version="24.6.4" type="github">
   <diagram name="Page-1" id="DZVCTHQu2n3p9sboyNOl">
-    <mxGraphModel dx="3232" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3424" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,11 +129,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jgYk3zZ4BMT8bTG-VnUE-106" value="Log Analytics&lt;br&gt;Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" parent="1" vertex="1">
-          <mxGeometry x="-832" y="410" width="84" height="84" as="geometry" />
+          <mxGeometry x="-814" y="405" width="84" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="jgYk3zZ4BMT8bTG-VnUE-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.15;exitY=0.921;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-66" target="jgYk3zZ4BMT8bTG-VnUE-106" edge="1">
+        <mxCell id="jgYk3zZ4BMT8bTG-VnUE-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" target="jgYk3zZ4BMT8bTG-VnUE-106" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-950" y="430" as="sourcePoint" />
+            <mxPoint x="-960" y="447" as="sourcePoint" />
             <mxPoint x="-850" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -350,6 +350,74 @@
           <mxGeometry x="-0.0247" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-112" value="Cold Log&lt;br&gt;Analytics&amp;nbsp;&lt;br&gt;Report for MSR" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="820" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-116" value="Log Cold&lt;br&gt;Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-201.61" y="570" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-124" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.analytics;" vertex="1" parent="1">
+          <mxGeometry x="-1287.6" y="331.2" width="60" height="58.8" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-133" value="Analytics&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;points=[];image=img/lib/azure2/analytics/Analysis_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.51;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-66" target="0WEt7F5-mT2UaYVK9m0M-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-985" y="480" />
+              <mxPoint x="-1274" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-143" value="Cold path&lt;br&gt;log analytics&amp;nbsp;&lt;br&gt;report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-134">
+          <mxGeometry x="-0.0556" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="0WEt7F5-mT2UaYVK9m0M-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-139" value="Cold Path&lt;br&gt;Logging" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-138">
+          <mxGeometry x="0.0377" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="jgYk3zZ4BMT8bTG-VnUE-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-141" value="Analytics&lt;br&gt;Report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-140">
+          <mxGeometry x="-0.0299" y="-5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.895;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-66" target="0WEt7F5-mT2UaYVK9m0M-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1060" y="359" />
+              <mxPoint x="-1060" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-146" value="Hot path log&lt;br&gt;analytics dashboard" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-145">
+          <mxGeometry x="0.2787" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgYk3zZ4BMT8bTG-VnUE-106" target="0WEt7F5-mT2UaYVK9m0M-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-150" value="Hot &amp;amp; Cold&lt;br&gt;path Log&lt;br&gt;processing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0WEt7F5-mT2UaYVK9m0M-149">
+          <mxGeometry x="0.3844" y="1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-151" value="Anamoly Detector" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Anomaly_Detector.svg;" vertex="1" parent="1">
+          <mxGeometry x="-824" y="830" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="0WEt7F5-mT2UaYVK9m0M-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0WEt7F5-mT2UaYVK9m0M-133" target="0WEt7F5-mT2UaYVK9m0M-151">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
